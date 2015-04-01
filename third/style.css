@@ -1,0 +1,53 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.header {
+	height: 8%;
+	width: 100%;
+	background: black;
+	color: white;
+
+}
+.apple {
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+
+}
+.google {
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px; 
+}
+h1 {
+	margin-left: 20px;
+}
+.gray-box {
+	width: 30%;
+	height: 40%;
+	background: silver;
+	float: right;
+	/*margin-top: 50px;*/
+	/*margin-right: 150px;*/
+	/*clear: both;*/
+	margin: 0 auto;
+
+}
+.body {
+	display: flex;
+	flex-flow: column wrap;
+	height: 800px;
+
+}
+.first-div {
+	margin-left: 20px;
+	max-width: 50%;
+	font-size: 20px;
+	width: 50%;
+}
+footer {
+	width: 100%;
+	height: 8%;
+	background: black;
+}
