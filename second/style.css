@@ -1,0 +1,39 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.background {
+	height: 100%;
+	width: 100%;
+	background: silver;
+}
+.first-div {
+	background: white;
+	margin:40px;
+	padding: 20px;
+	z-index: 400;
+
+}
+.red {
+	background-color: red;
+	display: inline-block;
+	color: white;
+}
+.blue {
+	background: blue;
+	display: inline-block;
+	color: white;
+}
+.sec-div {
+	background: white;
+	margin: 40px;
+	padding: 20px;
+	height: 50%;
+	z-index: 400;
+}
+.gray {
+	height: 60%;
+	width: 60%;
+	background: gray;
+	margin: 0 auto;
+}
